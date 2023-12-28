@@ -1,0 +1,17 @@
+spring:
+  main:
+    web-application-type: none
+    banner-mode: off
+
+armeria:
+  ports:
+    - port: 8082
+
+logging:
+  config: classpath:logback-local.xml
+
+app:
+  cors:
+    origins: 'http://localhost:5173'
+    methods: GET, POST, PUT, DELETE
+    maxAgeSeconds: 3600
