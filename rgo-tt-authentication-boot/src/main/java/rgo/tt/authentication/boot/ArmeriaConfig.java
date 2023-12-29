@@ -12,8 +12,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import rgo.tt.common.armeria.ProbeService;
-import rgo.tt.common.headers.HeadersDecorator;
-import rgo.tt.common.logger.LoggingDecorator;
+import rgo.tt.common.armeria.headers.HeadersDecorator;
+import rgo.tt.common.armeria.logger.LoggingDecorator;
 
 import java.util.function.Function;
 
