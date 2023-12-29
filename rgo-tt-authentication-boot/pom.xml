@@ -16,16 +16,9 @@
         <!-- external modules -->
         <dependency>
             <groupId>ru.gold.ordance</groupId>
-            <artifactId>rgo-tt-common-armeria</artifactId>
+            <artifactId>rgo-tt-common-armeria-spring-starter</artifactId>
         </dependency>
         <!-- external modules -->
-
-        <!-- armeria -->
-        <dependency>
-            <groupId>com.linecorp.armeria</groupId>
-            <artifactId>armeria-spring-boot3-starter</artifactId>
-        </dependency>
-        <!-- armeria -->
 
         <!-- test -->
         <dependency>

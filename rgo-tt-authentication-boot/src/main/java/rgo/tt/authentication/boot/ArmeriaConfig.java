@@ -11,16 +11,13 @@ import io.micrometer.prometheus.PrometheusMeterRegistry;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Import;
-import rgo.tt.common.armeria.ArmeriaCommonConfig;
 import rgo.tt.common.armeria.ProbeService;
-import rgo.tt.common.armeria.headers.HeadersDecorator;
-import rgo.tt.common.armeria.logger.LoggingDecorator;
+import rgo.tt.common.headers.HeadersDecorator;
+import rgo.tt.common.logger.LoggingDecorator;
 
 import java.util.function.Function;
 
 @Configuration
-@Import(ArmeriaCommonConfig.class)
 public class ArmeriaConfig {
 
     @Autowired private ProbeService probeService;
